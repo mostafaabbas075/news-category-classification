@@ -15,15 +15,15 @@ This project is a **Multiclass Text Classification** task using Machine Learning
 
 ## 📁 Dataset
 
-The dataset used is the [AG News Classification Dataset](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset).
+The dataset used is the **AG News Classification Dataset**, which contains over 120,000 news articles across four categories: World, Sports, Business, and Sci/Tech.
 
-Since the files exceed GitHub's size limit, you can download them from:
-🔗 **Google Drive**:  
+Since the files exceed GitHub’s size limit, you can download them from:
+
+🔗 **Google Drive**  
 [AG News Dataset + Colab Notebook](https://drive.google.com/drive/folders/1IL4DevN7d0cR-GCQRiwLrYiHtPP9RlFy?usp=drive_link)
 
-Or directly from:
-🔗 **Kaggle**:  
-[AG News Dataset on Kaggle](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)
+Or directly from the official source:  
+🔗 [AG News Dataset on Kaggle](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)
 
 ---
 
