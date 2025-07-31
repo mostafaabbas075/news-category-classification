@@ -72,6 +72,48 @@ Or directly from:
 
 ---
 
+---
+
+## 🤖 Bonus: Neural Network Classifier
+
+```python
+# In addition to traditional ML models, a simple feedforward Neural Network was implemented using Keras.
+
+# ✅ Preprocessing:
+# - Text data was transformed using TF-IDF.
+# - Labels were converted to One-Hot Encoding.
+# - Sparse TF-IDF matrix was converted to dense array.
+
+# 🧠 Model Architecture:
+Sequential([
+    Input(shape=(input_dim,)),
+    Dense(128, activation='relu'),
+    Dense(64, activation='relu'),
+    Dense(num_classes, activation='softmax')
+])
+
+# ⚙️ Compilation:
+model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+# 🏋️ Training:
+model.fit(X_train, y_train, epochs=10, batch_size=32)
+
+# ✅ Evaluation Result:
+# Neural Network Accuracy: 0.90
+
+# 📋 Classification Report:
+#               precision    recall  f1-score   support
+#            0       0.91      0.90      0.90      1900
+#            1       0.96      0.96      0.96      1900
+#            2       0.87      0.86      0.87      1900
+#            3       0.87      0.88      0.87      1900
+#
+#     accuracy                           0.90      7600
+#    macro avg       0.90      0.90      0.90      7600
+# weighted avg       0.90      0.90      0.90      7600
+```
+
+
 ## 🗂️ Project Structure
 
 ```bash
